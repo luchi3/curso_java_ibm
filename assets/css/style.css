@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #2E7D32;
+}
+
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title, .card-text {
+    margin-bottom: 0.5rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}
+
+.precio-original {
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.precio-descuento {
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+.footer-form {
+    background-color: #2E7D32;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.footer-form input, .footer-form button {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
